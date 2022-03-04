@@ -1,0 +1,12 @@
+.nav-item{
+    margin:100px;
+}
+.navbar-nav li a:hover{
+         
+    background-color:blue;
+    border-radius: 5px;
+}
+ .bg-image
+ {
+     background-image: url(img/b);
+ }

@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: raleway;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+   
+  padding:10px;
+}
+navbar-brand img{
+   
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    
+    font-size:25px;
+    
+}
+#banner{
+    background-image: linear-gradient(blue,black);
+    color:white;
+    padding-top: 5%;
+
+}
+.dream{
+    font-size:;
+    font-weight: 600;
+    margin-top: 100px;
+}
+#services{
+    padding: 80px 0px;
+}
+.services{
+    padding: 20px;
+}
+.title::before{
+content:"";
+background: blue;
+height: 5px;
+width:150px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+transform: translateY(63px)
+}
+.title::after{
+    content:"";
+    background: blue;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px)
+    }
+    /*-----about-----*/
+    .about-us{
+        background:rgba(255, 255, 255, 0.671);
+       
+        padding: 60px;
+    }
+.about-title{
+    color: blue;
+    font-size:25px ;
+}
+#footer{
+    background:#334580;
+    color: white;
+   
+
+}
+.footer-box{
+    padding: 20px;
+
+}
+.footer-box .icon{
+    width: 80px;
+    margin-bottom: 20px;
+    }
+    .footer-box .fa{
+        margin-right: 8px;
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding-top: 7px;
+        border-radius: 50%;
+        background-image: linear-gradient(black,darkblue);
+    }
+    .footer-box .form-control{
+        box-shadow: none !important;
+        border: none;
+        border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+    }
+    .footer-box .btn-danger{
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-top: 30px;
+    }
+    hr{
+        background-color: white;
+       
+    }
+    .copyright{
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .formone .form-control{
+        font-size: 20px;
+        border-radius:5px;
+        border:1px solid grey;
+        padding-bottom: 20px;
+        padding-top: 10px;
+
+    
+    }
+    .formone .btn-success
+    {
+        height:50;
+        font-size:20px;
+    }
+    .formone .form-control:hover{
+       border-color: green;
+    }
+    .formone .fa{
+        margin-right: 8px;
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding-top: 7px;
+        border-radius: 2px;
+       color: white;
+       background-color: blue;
+    }
+    .formtwo .fa{
+        color: blue;
+        font-size: 45px;
+    }
+    .contact{
+       background-image:linear-gradient(grey,white);
+    }
+    .nav-link:hover{
+      
+    }
+    .navbar-toggler:hover{
+        color:blue
+    }
+.formtwo p{
+    font-size:20px;
+}
+#contact{
+    padding:60px 0px;
+    
+}
+#gallery{
+    padding: 60px 0px;
+}
+#about-us{
+    padding: 60px 0px;
+}
+.card{
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    box-shadow: 12px 12px 22px lightblue;
+}
+
+
+   
+    
